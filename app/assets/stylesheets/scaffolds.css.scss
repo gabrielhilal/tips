@@ -2,22 +2,17 @@ body {
   background-color: #fff;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
 }
 
 p, ol, ul, td, th {
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 18px;
-  padding-left: 10px;;
+  padding-left: 5%;
 }
 
 
 pre {
   background-color: #eee;
-  padding: 10px;
-  font-size: 11px;
+  padding: 5%;
 }
 
 a {
@@ -33,7 +28,7 @@ a {
 
 div {
   &.field, &.actions {
-    margin-bottom: 10px;
+    margin-bottom: 5%;
   }
 }
 
@@ -77,55 +72,14 @@ div {
 
 table {
   border: 1px solid #000000;
+  width: 100%;
 }
 
 th {
   vertical-align: middle;
-  padding-left: 20px;
+  padding-left: 5%;
 }
-td {
+td, th {
   text-align: right;
   vertical-align: middle;
-}
-
-/* mobile styles */
-@media handheld {
-
-	html, body {
-		font: 12px/15px sans-serif;
-		background: #fff;
-		padding: 3px;
-		color: #000;
-		margin: 0;
-		}
-	#sidebar, #footer {
-		display: none;
-		}
-	h1, h2, h3, h4, h5, h6 {
-		font-weight: normal;
-		}
-	#content img {
-		max-width: 250px;
-		}
-	.center {
-		width: 100% !important;
-		text-align: center;
-		}
-	a:link, a:visited {
-		text-decoration: underline;
-		color: #0000CC;
-		}
-	a:hover, a:active {
-		text-decoration: underline;
-		color: #660066;
-		}
-
-}
-/* iPhone-specific styles */
-@media only screen and (max-device-width: 480px) {
-
-	html {
-		-webkit-text-size-adjust: none;
-		}
-
 }
