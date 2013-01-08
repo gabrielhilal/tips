@@ -58,7 +58,7 @@
       <file leaf-file-name="scaffolds.css.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="17" selection-start="721" selection-end="721" vertical-scroll-proportion="0.747851">
+            <state line="8" column="54" selection-start="212" selection-end="212" vertical-scroll-proportion="0.1833811">
               <folding />
             </state>
           </provider>
@@ -952,7 +952,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="17" selection-start="721" selection-end="721" vertical-scroll-proportion="0.747851">
+        <state line="8" column="54" selection-start="212" selection-end="212" vertical-scroll-proportion="0.1833811">
           <folding />
         </state>
       </provider>

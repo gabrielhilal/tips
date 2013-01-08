@@ -1,24 +1,17 @@
 body {
-  -webkit-text-size-adjust: 100%;
   background-color: #fff;
+  -webkit-text-size-adjust: none;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 23px;
-  line-height: 28px;
 }
 
 p, ol, ul, td, th {
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 23px;
-  line-height: 28px;
-  padding-left: 20px;;
 }
 
 
 pre {
   background-color: #eee;
-  padding: 20px;
-  font-size: 21px;
 }
 
 a {
@@ -34,7 +27,6 @@ a {
 
 div {
   &.field, &.actions {
-    margin-bottom: 20px;
   }
 }
 
@@ -52,9 +44,8 @@ table {
 
 th {
   vertical-align: middle;
-  padding-left: 30px;;
 }
-td {
+td, th {
   text-align: right;
   vertical-align: middle;
 }
