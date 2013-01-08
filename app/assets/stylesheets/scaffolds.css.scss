@@ -1,18 +1,24 @@
 body {
+  -webkit-text-size-adjust: 100%;
   background-color: #fff;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 23px;
+  line-height: 28px;
 }
 
 p, ol, ul, td, th {
   font-family: verdana, arial, helvetica, sans-serif;
-  padding-left: 5%;
+  font-size: 23px;
+  line-height: 28px;
+  padding-left: 20px;;
 }
 
 
 pre {
   background-color: #eee;
-  padding: 5%;
+  padding: 20px;
+  font-size: 21px;
 }
 
 a {
@@ -28,39 +34,9 @@ a {
 
 div {
   &.field, &.actions {
-    margin-bottom: 5%;
+    margin-bottom: 20px;
   }
 }
-
-#notice {
-  color: green; }
-
-.field_with_errors {
-  padding: 2px;
-  background-color: red;
-  display: table; }
-
-#error_explanation {
-  width: 450px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 0;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
-  h2 {
-    text-align: left;
-    font-weight: bold;
-    padding: 5px 5px 5px 15px;
-    font-size: 12px;
-    margin: -7px;
-    margin-bottom: 0px;
-    background-color: #c00;
-    color: #fff; }
-
-  ul li {
-      font-size: 12px;
-      list-style: square; } }
-
 
 .left {
   text-align: left;
@@ -72,14 +48,13 @@ div {
 
 table {
   border: 1px solid #000000;
-  width: 100%;
 }
 
 th {
   vertical-align: middle;
-  padding-left: 5%;
+  padding-left: 30px;;
 }
-td, th {
+td {
   text-align: right;
   vertical-align: middle;
 }
