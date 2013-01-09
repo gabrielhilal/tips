@@ -1,17 +1,23 @@
 body {
   background-color: #fff;
-  -webkit-text-size-adjust: none;
   color: #333;
   font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
 }
 
 p, ol, ul, td, th {
   font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  padding-left: 10px;;
 }
 
 
 pre {
   background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
 }
 
 a {
@@ -27,6 +33,7 @@ a {
 
 div {
   &.field, &.actions {
+    margin-bottom: 10px;
   }
 }
 
@@ -44,6 +51,7 @@ table {
 
 th {
   vertical-align: middle;
+  padding-left: 20px;;
 }
 td, th {
   text-align: right;
