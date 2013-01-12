@@ -10,7 +10,8 @@
 
 <p class="bold">
   Total Hours: <%= Staff.total %> <br />
-  £ per Hour: <%= number_to_currency(@hour, unit: '£') %>
+  £ per Hour: <%= number_to_currency(@hour, unit: '£') %> <br />
+  No staff: <%= @staffs.count %>
 </p>
 
 <table>
