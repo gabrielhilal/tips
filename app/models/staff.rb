@@ -10,7 +10,11 @@ class Staff < ActiveRecord::Base
   end
 
   def set_hours
-    self.hours = finish.to_f - start.to_f unless hours
+    if finish == start
+      self.hours = hours
+    else
+      self.hours = finish.to_f - start.to_f
+    end
   end
 
 end
