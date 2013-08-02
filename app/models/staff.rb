@@ -1,5 +1,5 @@
 class Staff < ActiveRecord::Base
-  attr_accessible :hours, :name, :total, :start, :finish
+  attr_accessible :hours, :name, :start, :finish
   attr_accessor :start, :finish
   before_save :set_hours
 
