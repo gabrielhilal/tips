@@ -1,8 +1,8 @@
-#### Lost Society - Tips
+#### Bar Tips - Splitting the Tips by Hour
 
 <strong>Technology:</strong> Ruby on Rails | CSS | HTML 
 
-<strong>Summary:</strong> Application developed to help Lost Society's staff to split the tips in an easier and faster way. As part of the requirements, the amounts are not stored in the database, so only the current user can see the calculation.
+<strong>Summary:</strong> Application developed to help the staff of Lost Society to split the tips in an easier and faster way. The system calculate the amount due to each staff according to the number of hours worked during the day.
  
 <strong>Application available at:</strong> [*http://losttips.herokuapp.com*](http://losttips.herokuapp.com)
 
